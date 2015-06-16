@@ -1,0 +1,26 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mocha Tests</title>
+    <!--mocha和should库引用开始-->
+    <link rel="stylesheet" href="../bower_components/mocha/mocha.css" />
+    <script src="../bower_components/should/should.js"></script>
+    <script src="../bower_components/mocha/mocha.js"></script>
+    <!--mocha和should库引用结束-->
+    <!--初始化mocha，设置为bdd模式-->
+    <script>mocha.setup('bdd')</script>
+    <!--加入需要测试和测试用例的js-->
+    <script src="../assertion/assertion_email.js"></script>
+    <script src="../src/util.js"></script>
+    <script src="assertion.test.js"></script>
+    <script src="util.test.js"></script>
+</head>
+<body>
+<!--测试报告容器-->
+<div id="mocha"></div>
+
+</body>
+<script>
+    mocha.run(); // 启动
+</script>
+</html>

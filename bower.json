@@ -1,0 +1,20 @@
+{
+  "name": "mocha-browser-sample",
+  "version": "0.0.0",
+  "homepage": "https://github.com/hcnode/mocha-should-karma-examples",
+  "authors": [
+    "hcnode <7372@163.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "should": "~6.0.3",
+    "mocha": "~2.2.5"
+  }
+}

@@ -6,8 +6,6 @@
   "directories": {
     "test": "tests"
   },
-  "author": "rentj1@163.com",
-  "license": "ISC",
   "devDependencies": {
     "karma": "^0.12.31",
     "karma-chrome-launcher": "^0.1.8",
